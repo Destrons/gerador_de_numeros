@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="descriptio" content="Gerador de números">
+  <meta name="Keywords" content="html, css, javascript, numeros, gerador">
+  <meta name="author" content="Thomas Neves">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="lock.ico">
+  <title>Gerador de Senha</title>
+</head>
+<body>
+<div class="container">
+  <h1>Gerador de Senha</h1>
+    <label class="options" for="length">Quantidade de caracteres:
+        <input type="number" id="length" min="4" max="50" value="8"><br>
+    </label>
+  <label class="options">
+    <input type="checkbox" id="uppercase"> Incluir letras maiúsculas
+  </label><br>
+  <label class="options">
+    <input type="checkbox" id="lowercase"> Incluir letras minúsculas
+  </label><br>
+  <label class="options">
+    <input type="checkbox" id="numbers"> Incluir números
+  </label ><br>
+  <label class="options">
+    <input type="checkbox" id="specialcharacters"> Incluir caracteres especiais
+  </label><br>
+
+  <button id="generate">Gerar Senha</button>
+  <p> <span id="password">Senha Gerada Aqui</span></p>
+
+  <script src="script.js"></script>
+
+</div>
+</body>
+</html>
